@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(74, 209, 142);
+    color: white;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+header {
+    display: flex;
+    height: 80px;
+    margin: 2px;
+    padding: 5px;
+    background-color: rgb(8, 139, 111);
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(70, 168, 136);
+    padding:20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+    height: 300px;
+    width: 300px;
+}
+
+input[type="submit"],
+input[type="tel"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.conditions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 300px;
+    align-items: flex-start;
+}
+

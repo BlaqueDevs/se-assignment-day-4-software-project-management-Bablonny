@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        form{
+            width: 400px;
+            margin: auto;
+        }
+
+        label, input{
+            display: block;
+            margin: 0 0 10px 0;
+        }
+
+        .error {
+            color: red;
+            font-size: 12px;
+        }
+
+
+    </style>
+</head>
+<body>
+<form id="registrationForm" onsubmit='return validateForm()'>
+
+    <label for="name">Name:</label>
+    <input id="name" type="text" placeholder="Full name">
+    <span id="nameError" class="error"></span>
+
+    <label for="email">E-mail:</label>
+    <input id="email" type="email" placeholder="Email">
+    <span id="emailError" class="error"></span>
+
+    <label for="passwpord">Password:</label>
+    <input id="passwpord" type="password">
+    <span id="passwordError" class="error"></span>
+
+    <label for="age">Age:</label>
+    <input id="age" type="text">
+    <span id="ageError" class="error"></span>
+
+    <label  for="nation">Nationality:</label>
+    <select id="nation">
+        <option value="nig">Nigeria</option>
+        <option value="ghn">Ghana</option>
+        <option value="ken">Kenya</option>
+        <option value="cam">Cameroon</option>
+        <option value="tog">Togo</option>
+        <option value="Rwa">Rwanda</option>
+        <option value="RSA"><South-Africa</South-Africa></option>
+    </select>
+    <span id="nationError" class="error"></span>
+
+    <p>Please select your Gender</p>
+    <input type="radio" id="gender_1" name="Gender" value="Female">
+    <label for="gender_1">Female</label>
+
+    <input type="radio" id="gender_2" name="Gender" value="Male">
+    <label for="gender_2">Male</label><br>
+    <span id="genderError" class="error"></span>
+
+    <label for="terms">Please read through the <a href="#">Terms and condition</a> and tick if agreed.</label>
+    <input id="terms" type="checkbox">
+    <span id="termsError" class="error"></span>
+
+    <input type="button" value="Register">
+</form>
+
+    <script src="script.js"></script>
+</body>
+</html>

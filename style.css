@@ -1,0 +1,30 @@
+form {background-color: rgb(70, 168, 136);
+    padding:20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+    }
+
+
+    body{
+        background-color:  rgb(74, 209, 142);
+        color: white;
+        }
+
+        input[type="text"],
+        input[type="tel"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        
+        header {
+            display: flex;
+            flex-direction: row;
+            background-color: rgb(8, 139, 111);
+            justify-content: center;
+        
+        }
+        
